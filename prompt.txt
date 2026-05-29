@@ -4,10 +4,13 @@ input: a compressed ansible log in a json format, it contains the outcome data o
 
 output: 
 - You need to do a thorough analysis of the compressed log file and analyse what led to that error. reason and think deeply.
-- Important: Your goal is to help an engineer out, so do not be vague at all. try to make his job as easy as possible by narrowing down on the root cause. 
+- Important: do not be vague at all. your goal is to help an engineer out. try to make his job as easy as possible by narrowing down on the root cause. 
 - in case you're unable to, give him 2 or 3 possible causes, but never confusing / vague statements.
 - if you're speculating about an error, mention it explicitly, ensure you never hallucinate.
 
 for eg: in addition to just saying its an ssh connection issue, give 
 - reason why that may be
 - your confidence level (high/medium/low) 
+
+if there is any ambiguity or missing data that you need to concretely make an analysis, ask. but dont rely solely on it
+
